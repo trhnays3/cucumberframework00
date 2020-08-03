@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="112.703">
+<testcase classname="Login feature" name="TC01_user logins with valid credentials" time="61.422">
+<system-out><![CDATA[Given user is on the fhctriplogin page......................................passed
+And user enters valid username..............................................passed
+And user enters  valid password.............................................passed
+And user clicks login button................................................passed
+Then verify login is successfull............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single Data Table" name="TC01_ google search test" time="15.424">
+<system-out><![CDATA[Given user is in the google page............................................passed
+And user searches "Selenium"................................................passed
+Then verify result has "Selenium"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single Data Table" name="TC01_ google search test 2" time="12.386">
+<system-out><![CDATA[Given user is in the google page............................................passed
+And user searches "Cucumber"................................................passed
+Then verify result has "Cucumber"...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single Data Table" name="TC01_ google search test 3" time="10.399">
+<system-out><![CDATA[Given user is in the google page............................................passed
+And user searches "Automation Tester".......................................passed
+Then verify result has "Automation Tester"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single Data Table" name="TC01_ google search test 4" time="11.166">
+<system-out><![CDATA[Given user is in the google page............................................passed
+And user searches "Istanbul"................................................passed
+Then verify result has "Istanbul"...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is in the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19654000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:54:44.471Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.searchIphone()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "user searches iphone in google",
+        "description": "",
+        "id": "google-search;user-searches-iphone-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 2301000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10351000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user searches iphone",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_iphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify result has iphone",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_iphone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@iphone"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is in the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9614000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:55:17.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "user searches nokia in google",
+        "description": "",
+        "id": "google-search;user-searches-nokia-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 2204000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2538000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searches nokia",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_nokia()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify result has nokia",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has_nokia()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@nokia"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/firstfeaturefile.feature",
+    "tags": [
+      {
+        "name": "@googlesearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@first",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]

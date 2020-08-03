@@ -1,0 +1,511 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-26T14:54:44.410Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01_user logins with valid credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-logins-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1690000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25959000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the fhctriplogin page",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_is_on_the_fhctriplogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 849000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid username",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters  valid password",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32127000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login button",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login is successfull",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhclogin"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fhctrip_login.feature",
+    "tags": [
+      {
+        "name": "@fhclogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-26T14:55:45.869Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1483000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11789000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2125000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify result has \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:56:01.301Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1651000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7614000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3088000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify result has \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cucumber\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:56:13.692Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1257000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7216000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1897000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Tester\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify result has \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation Tester\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:56:24.095Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC01_ google search test",
+        "description": "",
+        "id": "single-data-table;tc01--google-search-test;test-data;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1669000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6908000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_in_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2573000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches \"Istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify result has \"Istanbul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Istanbul\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datatable1"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Single Data Table",
+    "description": "",
+    "id": "single-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google_search_single_datatable.feature",
+    "tags": [
+      {
+        "name": "@datatable1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
